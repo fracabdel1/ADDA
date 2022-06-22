@@ -1,0 +1,24 @@
+head section
+
+Integer getNumFicheros()
+Integer getNumMemorias()
+Integer getTamFichero(Integer i)
+Integer getTamMax(Integer j)
+Integer getTamMemoria(Integer j)
+
+Integer n = getNumFicheros()
+Integer m = getNumMemorias()
+
+goal section
+
+max sum(x[i,j], i in 0 .. n, j in 0 .. m)
+
+constraints section
+
+sum(x[i,j], j in 0 .. m) <= 1, i in 0 .. n 
+getTamFichero(i) x[i,j] <= getTamMax(j), i in 0 .. n, j in 0 .. m
+sum(getTamFichero(i) x[i,j], i in 0 .. n) <= getTamMemoria(j), j in 0 .. m
+
+bin
+
+x[i,j], i in 0 .. n, j in 0 .. m

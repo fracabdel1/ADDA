@@ -1,0 +1,32 @@
+head section
+
+Integer getN()
+Integer getM()
+Integer getTotalProd()
+Integer getTotalManual()
+
+Integer getPrecioVenta(Integer i)
+Integer getMaxUds(Integer i)
+Integer getUdsCompProd(Integer i, Integer j)
+Boolean tieneComponente(Integer i, Integer j)
+Integer getTiempoProdTotalProducto(Integer i, Integer j)
+Integer getTiempoElabTotalProducto(Integer i, Integer j)
+
+Integer n = getN()
+Integer m = getM()
+
+goal section
+
+max sum(getPrecioVenta(i) x[i], i in 0 .. n)
+
+constraints section
+
+sum(getTiempoProdTotalProducto(i,j) x[i], i in 0 .. n, j in 0 .. m | tieneComponente(i,j)) <= getTotalProd()
+sum(getTiempoElabTotalProducto(i,j) x[i], i in 0 .. n, j in 0 .. m | tieneComponente(i,j)) <= getTotalManual()
+
+bounds section
+
+x[i] <= getMaxUds(i), i in 0 .. n
+ 
+int
+x[i], i in 0 .. n

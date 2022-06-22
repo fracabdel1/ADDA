@@ -1,0 +1,24 @@
+head section
+
+Integer getN()
+Integer getM()
+Integer tamElem(Integer i)
+Integer capacidadContenedor(Integer j)
+Boolean esCompatible(Integer i, Integer j)
+
+Integer n = getN()
+Integer m = getM()
+
+goal section
+
+max sum(y[j], j in 0 .. m)
+
+constraints section
+
+sum(x[i,j], j in 0 .. m) <= 1, i in 0 .. n
+sum(tamElem(i) x[i,j], i in 0 .. n | esCompatible(i,j)) - capacidadContenedor(j) y[j] = 0, j in 0 .. m
+
+
+bin
+x[i,j], i in 0 .. n, j in 0 .. m
+y[j], j in 0 .. m
