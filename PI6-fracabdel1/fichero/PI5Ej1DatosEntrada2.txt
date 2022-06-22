@@ -1,0 +1,47 @@
+// MEMORIAS
+MEM1: capacidad=80; tam_max=15;
+MEM2: capacidad=60; tam_max=20;
+MEM3: capacidad=50; tam_max=25;
+MEM4: capacidad=70; tam_max=10;
+MEM5: capacidad=40; tam_max=5;
+// FICHEROS
+F01: 20
+F02: 19
+F03: 18
+F04: 17
+F05: 16
+F06: 15
+F07: 14
+F08: 13
+F09: 12
+F10: 11
+F11: 10
+F12: 9
+F13: 8
+F14: 7
+F15: 6
+F16: 20
+F17: 19
+F18: 18
+F19: 17
+F20: 16
+F21: 15
+F22: 14
+F23: 13
+F24: 12
+F25: 11
+F26: 10
+F27: 9
+F28: 8
+F29: 7
+F30: 6
+F31: 25
+F32: 24
+F33: 23
+F34: 22
+F35: 21
+F36: 20
+F37: 19
+F38: 18
+F39: 17
+F40: 16

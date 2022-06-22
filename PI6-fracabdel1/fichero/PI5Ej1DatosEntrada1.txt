@@ -1,0 +1,19 @@
+// MEMORIAS
+MEM1: capacidad=80; tam_max=15;
+MEM2: capacidad=60; tam_max=20;
+// FICHEROS
+F01: 20
+F02: 19
+F03: 18
+F04: 17
+F05: 16
+F06: 15
+F07: 14
+F08: 13
+F09: 12
+F10: 11
+F11: 10
+F12: 9
+F13: 8
+F14: 7
+F15: 6
