@@ -1,0 +1,112 @@
+// CONTENEDORES
+CONT01: capacidad=57; tipo=F;
+CONT02: capacidad=32; tipo=B;
+CONT03: capacidad=70; tipo=J;
+CONT04: capacidad=14; tipo=I;
+CONT05: capacidad=47; tipo=I;
+CONT06: capacidad=13; tipo=F;
+CONT07: capacidad=41; tipo=C;
+CONT08: capacidad=60; tipo=D;
+CONT09: capacidad=50; tipo=C;
+CONT10: capacidad=10; tipo=G;
+//ELEMENTOS
+E01: 6; A, E, J, C, H
+E02: 20; A, E, C, I, C
+E03: 12; G, C, G, I, A
+E04: 22; I, J, B, C, D
+E05: 39; H, C, A, G, H
+E06: 34; C, E, C, H, I
+E07: 15; H, F, J, D, I
+E08: 31; G, G, D, H, E
+E09: 31; I, G, F, I, H
+E10: 29; C, I, I, E, E
+E11: 37; H, C, H, F, G
+E12: 27; J, B, A, B, H
+E13: 31; E, I, B, G, J
+E14: 39; C, G, C, I, H
+E15: 18; J, A, G, B, A
+E16: 24; C, H, D, C, E
+E17: 15; J, C, E, E, I
+E18: 36; F, G, B, G, E
+E19: 4; F, G, E, G, A
+E20: 27; F, F, B, J, H
+E21: 1; D, B, F, C, B
+E22: 37; D, F, G, E, I
+E23: 1; H, C, H, C, A
+E24: 43; I, H, E, C, A
+E25: 29; J, H, H, A, A
+E26: 25; E, B, C, E, E
+E27: 23; D, J, B, J, J
+E28: 9; F, B, G, B, H
+E29: 22; D, A, A, I, E
+E30: 27; B, I, H, I, B
+E31: 7; D, H, I, G, F
+E32: 27; C, H, E, F, A
+E33: 46; F, I, G, C, C
+E34: 13; I, G, D, G, A
+E35: 24; F, A, C, J, G
+E36: 32; A, C, H, A, B
+E37: 35; C, A, A, J, D
+E38: 40; J, J, A, G, J
+E39: 9; B, D, H, H, G
+E40: 15; A, D, G, B, G
+E41: 20; B, I, H, B, J
+E42: 15; A, F, D, H, D
+E43: 4; H, B, C, I, C
+E44: 47; B, H, E, I, B
+E45: 42; H, E, J, I, G
+E46: 48; A, F, J, C, C
+E47: 44; A, J, D, H, F
+E48: 13; A, D, C, A, A
+E49: 28; D, E, F, G, I
+E50: 17; A, I, A, D, I
+E51: 34; A, J, C, C, A
+E52: 44; C, B, G, H, F
+E53: 17; I, I, F, J, B
+E54: 15; H, D, D, B, G
+E55: 45; G, B, F, E, G
+E56: 29; I, I, H, E, D
+E57: 9; E, B, A, H, J
+E58: 16; H, H, A, D, E
+E59: 21; G, J, G, F, F
+E60: 35; A, I, I, G, E
+E61: 40; J, H, B, J, F
+E62: 2; E, A, H, H, J
+E63: 49; H, E, D, C, B
+E64: 40; J, I, I, J, J
+E65: 21; F, J, J, I, A
+E66: 18; E, E, I, G, D
+E67: 46; H, A, F, J, H
+E68: 18; E, B, A, I, I
+E69: 43; J, C, A, G, D
+E70: 22; D, H, A, I, I
+E71: 47; H, G, C, E, J
+E72: 10; C, F, G, G, J
+E73: 37; C, J, I, B, F
+E74: 16; D, I, H, I, G
+E75: 29; I, B, I, H, F
+E76: 28; G, I, J, D, C
+E77: 30; B, C, C, J, E
+E78: 8; D, G, D, J, E
+E79: 23; H, I, C, D, B
+E80: 43; H, I, C, B, C
+E81: 10; D, J, D, I, G
+E82: 12; C, B, G, D, J
+E83: 20; B, D, I, G, H
+E84: 16; C, C, I, A, B
+E85: 4; A, I, J, E, I
+E86: 11; C, B, D, I, I
+E87: 15; I, G, G, I, G
+E88: 9; J, B, D, B, A
+E89: 28; B, I, G, C, D
+E90: 17; I, H, D, D, C
+E91: 1; E, J, H, F, A
+E92: 17; J, A, G, E, F
+E93: 21; I, H, I, C, B
+E94: 23; D, A, F, G, J
+E95: 34; H, D, C, E, I
+E96: 23; E, F, I, D, D
+E97: 44; F, D, D, E, A
+E98: 10; E, G, E, B, I
+E99: 29; I, H, G, F, I
+E100: 40; G, J, C, H, D

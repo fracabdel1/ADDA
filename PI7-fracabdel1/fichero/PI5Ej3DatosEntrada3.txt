@@ -1,0 +1,124 @@
+T_prod = 25000
+T_manual = 25000
+// COMPONENTES
+C01: prod=49; elab=3;
+C02: prod=1; elab=22;
+C03: prod=7; elab=17;
+C04: prod=48; elab=15;
+C05: prod=40; elab=4;
+C06: prod=41; elab=42;
+C07: prod=6; elab=21;
+C08: prod=17; elab=6;
+C09: prod=37; elab=25;
+C10: prod=10; elab=21;
+C11: prod=40; elab=18;
+C12: prod=47; elab=31;
+C13: prod=44; elab=32;
+C14: prod=46; elab=1;
+C15: prod=29; elab=11;
+C16: prod=6; elab=48;
+C17: prod=28; elab=2;
+C18: prod=45; elab=15;
+C19: prod=3; elab=40;
+C20: prod=16; elab=49;
+// PRODUCTOS
+P01 -> precio=342; comp=(C19:8),(C06:6),(C07:7),(C14:6); max_u=175
+P02 -> precio=208; comp=(C03:6),(C13:9); max_u=325
+P03 -> precio=310; comp=(C18:1),(C19:8),(C06:3),(C10:1); max_u=391
+P04 -> precio=341; comp=(C16:8),(C02:1),(C03:9),(C06:7); max_u=149
+P05 -> precio=52; comp=(C18:8),(C05:5); max_u=355
+P06 -> precio=179; comp=(C05:6),(C07:1); max_u=122
+P07 -> precio=323; comp=(C17:2),(C12:2),(C14:1); max_u=307
+P08 -> precio=360; comp=(C16:4),(C02:1),(C19:4),(C08:3),(C14:9); max_u=165
+P09 -> precio=420; comp=(C03:3); max_u=305
+P10 -> precio=126; comp=(C03:7),(C04:3),(C15:4); max_u=356
+P11 -> precio=449; comp=(C03:3),(C09:4); max_u=351
+P12 -> precio=80; comp=(C19:6),(C03:2),(C07:7),(C11:9),(C15:4); max_u=471
+P13 -> precio=146; comp=(C18:5),(C07:9),(C10:9); max_u=456
+P14 -> precio=146; comp=(C10:5); max_u=380
+P15 -> precio=122; comp=(C02:5),(C13:9); max_u=271
+P16 -> precio=423; comp=(C16:2),(C02:9),(C03:1),(C07:8); max_u=364
+P17 -> precio=63; comp=(C18:5),(C08:7),(C14:4); max_u=345
+P18 -> precio=454; comp=(C01:9),(C08:2),(C09:6),(C11:6); max_u=256
+P19 -> precio=397; comp=(C02:5),(C07:1); max_u=451
+P20 -> precio=203; comp=(C16:1),(C05:4),(C07:5),(C09:2),(C13:3); max_u=345
+P21 -> precio=437; comp=(C01:6),(C18:1),(C03:9); max_u=297
+P22 -> precio=54; comp=(C02:9),(C13:7); max_u=102
+P23 -> precio=482; comp=(C02:6),(C13:5); max_u=324
+P24 -> precio=274; comp=(C09:3); max_u=143
+P25 -> precio=435; comp=(C16:9); max_u=493
+P26 -> precio=343; comp=(C01:5),(C17:1),(C15:6); max_u=292
+P27 -> precio=471; comp=(C18:2),(C09:1); max_u=471
+P28 -> precio=30; comp=(C18:1),(C19:6),(C04:6),(C10:6); max_u=118
+P29 -> precio=238; comp=(C01:1),(C17:4),(C05:4),(C07:2),(C12:8); max_u=368
+P30 -> precio=447; comp=(C08:8); max_u=170
+P31 -> precio=81; comp=(C16:5),(C18:9),(C19:6),(C05:9),(C08:9); max_u=450
+P32 -> precio=122; comp=(C16:7),(C04:2),(C07:9),(C15:6); max_u=449
+P33 -> precio=237; comp=(C04:7),(C05:6),(C12:2),(C15:3); max_u=223
+P34 -> precio=56; comp=(C17:4),(C19:6),(C05:6); max_u=395
+P35 -> precio=421; comp=(C18:8),(C13:5),(C15:9); max_u=390
+P36 -> precio=360; comp=(C16:2),(C17:5),(C18:1),(C19:4); max_u=137
+P37 -> precio=176; comp=(C16:4),(C18:1),(C19:4),(C03:3),(C07:3); max_u=113
+P38 -> precio=307; comp=(C16:6),(C17:9),(C19:9); max_u=485
+P39 -> precio=194; comp=(C03:5); max_u=178
+P40 -> precio=121; comp=(C01:3),(C06:3),(C08:8),(C12:4),(C14:6); max_u=197
+P41 -> precio=52; comp=(C02:4),(C10:5),(C11:5),(C14:1); max_u=478
+P42 -> precio=303; comp=(C18:7),(C19:3),(C09:9); max_u=462
+P43 -> precio=471; comp=(C19:8),(C05:8),(C06:7),(C09:9),(C14:3); max_u=62
+P44 -> precio=185; comp=(C16:1),(C09:8),(C12:1),(C13:1); max_u=119
+P45 -> precio=444; comp=(C17:2),(C18:1),(C19:6),(C04:8),(C05:3); max_u=206
+P46 -> precio=107; comp=(C01:3),(C11:9),(C12:5),(C15:6); max_u=137
+P47 -> precio=485; comp=(C10:3),(C12:7); max_u=233
+P48 -> precio=116; comp=(C16:8),(C17:7),(C03:2),(C07:9),(C08:5); max_u=455
+P49 -> precio=90; comp=(C16:2),(C02:3),(C04:3); max_u=325
+P50 -> precio=189; comp=(C03:2),(C09:5); max_u=91
+P51 -> precio=162; comp=(C01:3),(C13:1); max_u=255
+P52 -> precio=414; comp=(C10:1); max_u=185
+P53 -> precio=437; comp=(C13:7); max_u=289
+P54 -> precio=230; comp=(C17:2),(C08:1),(C09:7); max_u=148
+P55 -> precio=154; comp=(C08:7),(C13:8),(C14:5); max_u=302
+P56 -> precio=499; comp=(C05:2),(C07:2),(C09:5); max_u=336
+P57 -> precio=367; comp=(C01:8),(C02:7),(C18:8),(C14:5); max_u=275
+P58 -> precio=372; comp=(C09:3),(C15:3); max_u=311
+P59 -> precio=109; comp=(C06:2),(C09:5); max_u=199
+P60 -> precio=266; comp=(C01:4),(C17:6),(C07:2),(C09:4),(C15:2); max_u=431
+P61 -> precio=412; comp=(C16:3),(C03:8),(C07:5),(C08:1),(C15:5); max_u=349
+P62 -> precio=368; comp=(C18:6),(C08:9); max_u=246
+P63 -> precio=204; comp=(C01:5); max_u=496
+P64 -> precio=422; comp=(C03:9),(C19:3),(C06:6),(C10:7),(C14:2); max_u=353
+P65 -> precio=335; comp=(C03:6),(C11:8),(C12:6),(C15:7); max_u=482
+P66 -> precio=239; comp=(C01:8),(C12:4),(C14:4); max_u=234
+P67 -> precio=12; comp=(C01:2),(C03:9),(C05:4); max_u=151
+P68 -> precio=249; comp=(C18:2),(C09:1),(C10:4); max_u=309
+P69 -> precio=395; comp=(C01:1),(C05:2),(C07:4); max_u=262
+P70 -> precio=353; comp=(C02:6); max_u=364
+P71 -> precio=56; comp=(C18:1),(C04:5),(C15:8); max_u=231
+P72 -> precio=231; comp=(C19:2),(C11:3); max_u=160
+P73 -> precio=252; comp=(C15:9); max_u=479
+P74 -> precio=355; comp=(C17:5),(C02:7),(C03:7),(C13:8); max_u=428
+P75 -> precio=254; comp=(C03:8),(C04:1); max_u=235
+P76 -> precio=243; comp=(C19:1),(C11:4),(C12:1); max_u=352
+P77 -> precio=210; comp=(C08:5); max_u=223
+P78 -> precio=239; comp=(C11:1); max_u=471
+P79 -> precio=472; comp=(C06:6),(C09:2),(C12:8); max_u=482
+P80 -> precio=218; comp=(C07:3),(C10:3),(C14:2); max_u=449
+P81 -> precio=96; comp=(C10:8); max_u=181
+P82 -> precio=266; comp=(C19:4),(C10:6); max_u=404
+P83 -> precio=246; comp=(C08:5),(C14:6); max_u=462
+P84 -> precio=416; comp=(C06:5); max_u=268
+P85 -> precio=111; comp=(C02:9),(C03:8),(C04:7),(C14:6); max_u=443
+P86 -> precio=371; comp=(C03:7),(C10:5); max_u=444
+P87 -> precio=26; comp=(C19:4),(C05:5),(C06:8),(C12:1),(C15:8); max_u=434
+P88 -> precio=365; comp=(C04:7),(C05:4); max_u=149
+P89 -> precio=174; comp=(C19:6),(C03:6),(C05:6),(C11:1),(C14:7); max_u=93
+P90 -> precio=393; comp=(C16:1),(C14:9),(C15:2); max_u=323
+P91 -> precio=278; comp=(C17:1),(C18:2),(C07:4),(C10:1); max_u=291
+P92 -> precio=94; comp=(C18:4),(C03:6),(C08:1),(C12:4); max_u=362
+P93 -> precio=245; comp=(C03:7),(C14:1),(C15:7); max_u=414
+P94 -> precio=440; comp=(C03:7); max_u=481
+P95 -> precio=310; comp=(C18:7),(C19:8),(C11:7); max_u=311
+P96 -> precio=200; comp=(C17:5),(C04:2),(C05:8); max_u=148
+P97 -> precio=389; comp=(C02:4),(C19:6); max_u=70
+P98 -> precio=61; comp=(C16:5),(C18:4),(C03:9),(C15:3); max_u=119
+P99 -> precio=379; comp=(C02:8),(C15:5); max_u=259
+P100 -> precio=152; comp=(C17:9),(C11:8),(C15:5); max_u=158
