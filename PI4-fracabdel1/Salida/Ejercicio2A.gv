@@ -1,0 +1,32 @@
+strict digraph G {
+  1 [ color="blue" label="L1" ];
+  2 [ color="black" label="L2" ];
+  3 [ color="black" label="L3" ];
+  4 [ color="black" label="L4" ];
+  5 [ color="black" label="L5" ];
+  6 [ color="black" label="L6" ];
+  7 [ color="black" label="L7" ];
+  8 [ color="black" label="L8" ];
+  9 [ color="black" label="L9" ];
+  10 [ color="blue" label="L10" ];
+  11 [ color="blue" label="L11" ];
+  1 -> 6 [ color="black" ];
+  1 -> 2 [ color="black" ];
+  1 -> 4 [ color="black" ];
+  4 -> 7 [ color="black" ];
+  4 -> 5 [ color="black" ];
+  4 -> 6 [ color="black" ];
+  5 -> 8 [ color="black" ];
+  6 -> 9 [ color="black" ];
+  6 -> 7 [ color="black" ];
+  7 -> 8 [ color="black" ];
+  7 -> 9 [ color="black" ];
+  2 -> 3 [ color="black" ];
+  3 -> 5 [ color="black" ];
+  10 -> 6 [ color="black" ];
+  10 -> 2 [ color="black" ];
+  10 -> 4 [ color="black" ];
+  11 -> 6 [ color="black" ];
+  11 -> 2 [ color="black" ];
+  11 -> 4 [ color="black" ];
+}
